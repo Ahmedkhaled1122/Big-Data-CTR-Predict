@@ -48,11 +48,11 @@ Three models were trained and evaluated. The results are as follows:
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white" alt="Streamlit" />
 </div>
 
-*The **Gradient Boosted Trees (GBT)** model achieved the highest Test AUC-ROC score, making it the best performing model for this pipeline.*
+## 👨‍💻 Author
 
-## ⚙️ How to Run the App
+**Ahmed Khaled**  
+Data Analyst | Machine Learning Engineer  
 
-1. Ensure you have **Hadoop** and **Apache Spark** configured on your local machine.
-2. Install the required Python dependencies:
-   ```bash
-   pip install pyspark pandas scikit-learn streamlit matplotlib seaborn plotly findspark
+[![Mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.ghaith979@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmedkhaled-ai/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/ahmedkhaled369)
