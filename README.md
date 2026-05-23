@@ -33,7 +33,7 @@ Three models were trained and evaluated. The results are as follows:
 | :--- | :---: | :---: | :---: |
 | **Logistic Regression** | 0.8226 | 0.8263 | 0.8361 |
 | **Random Forest** | 0.8309 | 0.8342 | 0.7629 |
-| **Gradient Boosted Trees (GBT) ** | 0.8359 | **0.8397** | **0.7999** |
+| **Gradient Boosted Trees (GBT)** | 0.8359 | **0.8397** | **0.7999** |
 
 ## 🛠️ Tech Stack & Tools
 
