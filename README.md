@@ -15,14 +15,14 @@ The dataset consists of three main files:
 * **Note:** The dataset is highly imbalanced, with clicks representing only **5.14%** of the data.
 
 ## 🛠️ Tech Stack & Tools
-* **Big Data Frameworks:** Apache Spark (PySpark v4.1.1), Hadoop
+* **Big Data Frameworks:** PySpark, Hadoop
 * **Programming Languages & Libraries:** Python, Pandas, Scikit-Learn
 * **Data Visualization:** Matplotlib, Seaborn, Plotly
 * **Web UI:** Streamlit
 
 ## 📁 Project Structure
 1. **`EDA.ipynb.ipynb`**: Exploratory Data Analysis (EDA). Includes schema inspection, record counting, and target distribution analysis.
-2. **`02_Preprocessing_1.ipynb`**: Data cleaning and preprocessing pipeline (Handling Missing Values → Removing Duplicates → Joining Tables → Feature Engineering → Encoding → Scaling).
+2. **`02_Preprocessing_1.ipynb`**: Data cleaning and preprocessing pipeline (Handling Missing Values → Removing Duplicates → Joining Tables → Feature Engineering → Encoding → Scaling → Imbalance).
 3. **`03_Modeling.ipynb`**: Developing, training, and evaluating three machine learning models using Spark MLlib.
 4. **`app.py`**: An interactive Streamlit web application that provides a comprehensive comparison of model performance and displays feature importance.
 
@@ -33,7 +33,7 @@ Three models were trained and evaluated. The results are as follows:
 | :--- | :---: | :---: | :---: |
 | **Logistic Regression** | 0.8226 | 0.8263 | 0.8361 |
 | **Random Forest** | 0.8309 | 0.8342 | 0.7629 |
-| **Gradient Boosted Trees (GBT) 🏆** | 0.8359 | **0.8397** | **0.7999** |
+| **Gradient Boosted Trees (GBT) ** | 0.8359 | **0.8397** | **0.7999** |
 
 *The **Gradient Boosted Trees (GBT)** model achieved the highest Test AUC-ROC score, making it the best performing model for this pipeline.*
 
